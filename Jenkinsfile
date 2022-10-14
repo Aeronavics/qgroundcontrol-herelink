@@ -14,9 +14,7 @@ pipeline {
                     }
                     agent {
                         docker{
-                            registryUrl 'http://pelardon.aeronavics.com:8083'
-                            registryCredentialsId 'aeronavics_registry_user'
-                            image 'pelardon.aeronavics.com:8083/qgc_android'
+                            image 'mavlink/qgc-build-android'
                         }
                     }
 
