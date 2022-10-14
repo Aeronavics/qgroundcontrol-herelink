@@ -56,6 +56,7 @@ pipeline {
                 }
             }
         }
+    }
     environment {
         CCACHE_CPP2 = '1'
         CCACHE_DIR = '/tmp/ccache'
